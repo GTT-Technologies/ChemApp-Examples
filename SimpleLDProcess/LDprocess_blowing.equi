@@ -1,0 +1,166 @@
+FILE-00001    15:29    29Nov23  GTT - Technologies    FactSage 8.3
+Blowing oxygen
+'O' '13'
+'TC' 'ATM' 'J' 'NOVPT' 'NOPHYS' 'CUT' '1e-70 1e-70' 'WIN' 'TH' 'TONNE' 'NOAQUA' 'NOEPH' 
+'O' '10'
+'CXHY' '2' 'NOGIONTK' '2000' 'NODEMO' 'NOVIR' 'DILEX' '1e+6' 'NOG25' 'MINS2'
+'O' '7'
+'LIM' '100' '10000' '1.000E-35' '1.000E+08' '1.000E-08' '1.000E+35' 
+'O' '6'
+'NOTRNS' 'TRNUM' '0'  'NOPARA' '' ' 7   1  2  3  4  5  6  7' 
+'O' '3'
+'ISOP' '0' ''
+'R' 'NEW'
+ 94.6225 Fe  +  4.35 C  +  0.505 Si  +  0.4 Mn  + 
+'I' '   '
+ (1300,1,s1-FactPS,#1) (1300,1,s1-FactPS,#1) (1300,1,s-FactPS,#1) (1300,1,s1-FactPS,#1)
+'R' 'NEW'
+ 0.1 P  +  0.0225 S  +  <A> O2  =
+'I' '   '
+ (1300,1,s1-FactPS,#1) (1300,1,s1-FactPS,#1) (25,1,g-FactPS,#2)
+'F' 'WIN'
+ 'A' '0 10 0.2' 'T' '1600' 'P' '1' 'DH' ''
+'DAT1' ' 3'
+FT53 MI53 OX53 
+'DAT2' ' 2'
+MI53 OX53 
+'DAT3' '0'
+ 
+'GRID' 
+GRIDOPS   0  0  
+GRIDLHS   3 1 1 2 1 3 1
+GRIDRHS   2 1 1 3 1  1
+GRIDPROP SOURCE  0 IOPT  2
+GRIDEND
+'SS' '254'
+   0    +      1  1 GAS
+  81    +    101  1 C
+  82    +    102  1 C
+  83    +    101  1 Si
+  84    +    101  1 SiC
+  85    +    102  1 SiC
+  94    +    101  1 P
+  95    +    102  1 P
+  96    +    103  1 P
+  97    +    104  1 P
+  99    +    101  1 SiP
+ 104    +    101  1 S
+ 105    +    102  1 S
+ 106    +    101  1 SO3
+ 107    +    101  1 SiS
+ 108    +    101  1 SiS2
+ 109    +    101  1 P2S3
+ 110    +    101  1 P4S3
+ 111    +    101  1 P2S5
+ 112    +    101  1 P4S5
+ 113    +    101  1 P4S6
+ 114    +    101  1 P4S7
+ 115    +    101  1 Mn
+ 116    +    102  1 Mn
+ 117    +    103  1 Mn
+ 118    +    104  1 Mn
+ 119    +    101  1 Mn3C
+ 120    +    101  1 Mn3C2
+ 121    +    101  1 Mn5C2
+ 122    +    101  1 Mn7C3
+ 123    +    101  1 Mn23C6
+ 130    +    101  1 MnCO3
+ 131    +    101  1 MnSi
+ 132    +    101  1 Mn3Si
+ 133    +    101  1 Mn5Si3
+ 134    +    101  1 Mn10Si17
+ 135    +    101  1 Mn5SiC
+ 139    +    101  1 MnP
+ 140    +    101  1 MnP3
+ 141    +    101  1 Mn2P
+ 145    +    101  1 MnS
+ 146    +    101  1 MnS2
+ 147    +    101  1 MnSO4
+ 148    +    101  1 Fe
+ 149    +    102  1 Fe
+ 150    +    101  1 Fe3C
+ 151    +    102  1 Fe3C
+ 152    +    101  1 Fe3C2
+ 153    +    101  1 Fe5C2
+ 154    +    102  1 Fe5C2
+ 155    +    101  1 Fe7C3
+ 164    +    101  1 FeCO3
+ 165    +    101  1 FeSi
+ 166    +    101  1 FeSi2
+ 167    +    101  1 Fe3Si
+ 168    +    101  1 Fe3Si7
+ 175    +    101  1 FeP
+ 176    +    101  1 FeP2
+ 177    +    101  1 Fe2P
+ 178    +    101  1 Fe3P
+ 179    +    102  1 Fe3P
+ 195    +    101  1 FeS2
+ 196    +    101  1 Fe7S8
+ 197    +    101  1 Fe9S10
+ 198    +    101  1 Fe10S11
+ 199    +    101  1 Fe11S12
+ 200    +    101  1 FeSO4
+ 201    +    101  1 Fe2(SO4)3
+ 203    +    101  2 FeS
+ 204    +    102  2 FeS
+ 205    +    103  2 FeS
+ 206    +    101  3 SiO2
+ 207    +    102  3 SiO2
+ 208    +    103  3 SiO2
+ 209    +    104  3 SiO2
+ 210    +    105  3 SiO2
+ 211    +    106  3 SiO2
+ 212    +    107  3 SiO2
+ 213    +    108  3 SiO2
+ 214    +    101  3 P2O5
+ 215    +    102  3 P2O5
+ 216    +    103  3 P2O5
+ 217    +    101  3 P2SiO7
+ 218    +    102  3 P2SiO7
+ 219    +    103  3 P2SiO7
+ 220    +    101  3 P4Si3O16
+ 221    +    101  3 MnO
+ 222    +    101  3 MnO2
+ 223    +    101  3 Mn2O3
+ 224    +    102  3 Mn2O3
+ 225    +    101  3 MnSiO3
+ 226    +    101  3 Mn2SiO4
+ 227    +    101  3 MnP2O6
+ 228    +    101  3 Mn2P2O7
+ 229    +    101  3 Mn3P2O8
+ 230    +    101  3 Fe2O3
+ 231    +    102  3 Fe2O3
+ 232    +    103  3 Fe2O3
+ 233    +    101  3 FeSiO3
+ 234    +    102  3 FeSiO3
+ 235    +    103  3 FeSiO3
+ 236    +    101  3 Fe2SiO4
+ 237    +    102  3 Fe2SiO4
+ 238    +    103  3 Fe2SiO4
+ 239    +    101  3 FeP2O6
+ 240    +    101  3 Fe2P2O7
+ 241    +    101  3 Fe2P2O8
+ 242    +    101  3 Fe2P6O18
+ 243    +    101  3 Fe3P2O8
+ 244    +    102  3 Fe3P2O8
+ 245    +    101  3 Fe4P2O10
+ 246    +    101  3 Fe4P6O21
+ 247    +    101  3 Fe6P2O14
+ 248    +    101  3 Fe7P6O24
+ 249    +    101  3 Fe10P6O26
+ 250    +    101  3 Fe18P2O24
+   0    +      0  1 SOLN-FELQ  // 1 FTmisc FeLQ     Fe-liq
+   0    +      0  1 SOLN-MATT  // 1 FTmisc MATT     Matte
+   0    +      0  1 SOLN-FES_  // 1 FTmisc FeS_     FeS-liq
+   0    I      0  2 SOLN-SLAGA // 2 FToxid SLAGA    A-Slag-liq all oxides + S
+   0    +      0  2 SOLN-SPINB // 1 FToxid SPINB    B-Spinel
+   0    +      0  2 SOLN-MEO_A // 1 FToxid MeO_A    A-Monoxide
+   0    +      0  2 SOLN-CPYRA // 1 FToxid cPyrA    A-Clinopyroxene
+   0    +      0  2 SOLN-OLIVA // 1 FToxid OlivA    A-Olivine
+   0    +      0  2 SOLN-CORU  // 1 FToxid CORU     M2O3(Corundum)
+   0    +      0  2 SOLN-TSPIA // 1 FToxid TSpiA    A-Tetragonal-Spinel
+   0    +      0  2 SOLN-BIXB  // 1 FToxid Bixb     Mn2O3(Bixbyite)
+   0    +      0  2 SOLN-BRAU  // 1 FToxid Brau     Braunite_Mn7SiO12
+   0    +      0  2 SOLN-RHOD  // 1 FToxid Rhod     Rhodonite
+SSEND
+ENDF-00001

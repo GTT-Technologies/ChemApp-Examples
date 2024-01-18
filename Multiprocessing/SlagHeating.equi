@@ -1,0 +1,546 @@
+FILE    0    11:16    11Jan24  GTT - Technologies    FactSage 8.3
+last system
+'O' '13'
+'TC' 'ATM' 'J' 'NOVPT' 'NOPHYS' 'CUT' '1e-75 1e-75' 'WIN' 'TH' '%' 'NOAQUA' 'NOEPH' 
+'O' '10'
+'CXHY' '2' 'NOGIONTK' '2000' 'NODEMO' 'NOVIR' 'DILEX' '1e+6' 'NOG25' 'MINS2'
+'O' '7'
+'LIM' '200' '10000' '1.000E-35' '1.000E+08' '1.000E-08' '1.000E+35' 
+'O' '6'
+'NOTRNS' 'TRNUM' '0'  'NOPARA' '' ' 15   1  2  3  4  5  6  7  8  9  10  11  12  13  14  15' 
+'O' '3'
+'ISOP' '0' ''
+'R' 'NEW'
+ 15 Al2O3  +  33 CaO  +  15 MgO  +  37 SiO2  + 
+'I' '   '
+ (25,1,s1-FactPS,#1) (25,1,s-FactPS,#1) (25,1,s-FactPS,#1) (25,1,s1-FactPS,#1)
+'R' 'NEW'
+ 0.001 FeO  +  0.001 Fe2O3  +  0.001 Cr2O3  +  0.001 MnO  + 
+'I' '   '
+ (25,1,s-FactPS,#1) (25,1,s1-FactPS,#1) (25,1,s-FactPS,#1) (25,1,s-FactPS,#1)
+'R' 'NEW'
+ 0.001 TiO2  +  0.001 K2O  +  0.001 Na2O  +  0.001 V2O5  + 
+'I' '   '
+ (25,1,s1-FactPS,#1) (25,1,s-FactPS,#1) (25,1,s1-FactPS,#1) (25,1,s-FactPS,#1)
+'R' 'NEW'
+ 0.001 NiO  +  0.001 Cu2O  +  0.001 Ni3S2  +  0.001 Cu2S  + 
+'I' '   '
+ (25,1,s-FactPS,#1) (25,1,s-FactPS,#1) (25,1,s1-FactPS,#1) (25,1,s1-FactPS,#1)
+'R' 'NEW'
+ 0.001 FeS  +  0.001 S  =
+'I' '   '
+ (25,1,s1-FactPS,#1) (25,1,s1-FactPS,#1)
+'F' 'WIN'
+ 'T' '1400 1500 20' 'P' '1' 'DH' ''
+'DAT1' ' 4'
+FT53 ST53 OX53 SU82 
+'DAT2' ' 3'
+ST53 OX53 SU82 
+'DAT3' '0'
+FToxid FactPS FSstel FTsulf 
+'GRID' 
+GRIDOPS   0  0  
+GRIDLHS   1 3 1
+GRIDRHS   1 3 1  1
+GRIDPROP SOURCE  0 IOPT  2
+GRIDEND
+'SS' '1124'
+   1    +    901  1 O
+   2    +    901  1 O2
+   3    +    901  1 O3
+   4    +    901  1 Na
+   5    +    901  1 Na2
+   6    +    901  1 NaO
+   7    +    901  1 Mg
+   8    +    901  1 Mg2
+   9    +    901  1 MgO
+  10    +    901  1 Al
+  11    +    901  1 Al2
+  12    +    901  1 AlO
+  13    +    901  1 AlO2
+  14    +    901  1 Al2O
+  15    +    901  1 Al2O2
+  16    +    901  1 Al2O3
+  17    +    901  1 Si
+  18    +    901  1 Si2
+  19    +    901  1 Si3
+  20    +    901  1 SiO
+  21    +    901  1 SiO2
+  22    +    901  1 S
+  23    +    901  1 S2
+  24    +    901  1 S3
+  25    +    901  1 S4
+  26    +    901  1 S5
+  27    +    901  1 S6
+  28    +    901  1 S7
+  29    +    901  1 S8
+  30    +    901  1 SO
+  31    +    901  1 SO2
+  32    +    901  1 SO3
+  33    +    901  1 SSO
+  34    +    901  1 Na2SO4
+  35    +    901  1 MgS
+  36    +    901  1 AlS
+  37    +    901  1 Al2S
+  38    +    901  1 Al2S2
+  39    +    901  1 SiS
+  40    +    901  1 SiS2
+  41    +    901  1 K
+  42    +    901  1 K2
+  43    +    901  1 KO
+  44    +    901  1 K2SO4
+  45    +    901  1 Ca
+  46    +    901  1 Ca2
+  47    +    901  1 CaO
+  48    +    901  1 CaS
+  49    +    901  1 Ti
+  50    +    901  1 TiO
+  51    +    901  1 TiO2
+  52    +    901  1 TiS
+  53    +    901  1 V
+  54    +    901  1 VO
+  55    +    901  1 VO2
+  56    +    901  1 VS
+  57    +    901  1 Cr
+  58    +    901  1 CrO
+  59    +    901  1 CrO2
+  60    +    901  1 CrO3
+  61    +    901  1 CrS
+  62    +    901  1 Mn
+  63    +    901  1 MnS
+  64    +    901  1 Fe
+  65    +    901  1 FeO
+  66    +    901  1 FeS
+  67    +    901  1 Ni
+  68    +    901  1 NiO
+  69    +    901  1 NiS
+  70    +    901  1 Cu
+  71    +    901  1 Cu2
+  72    +    901  1 CuO
+  73    +    901  1 CuS
+ 264    +    101  1 S
+ 265    +    102  1 S
+ 525    +    101  1 FeO
+ 561    +    101  1 FeS
+ 605    +    101  1 Ni3S2
+ 629    +    101  1 Cu2S
+ 630    +    102  1 Cu2S
+ 673    +    101  2 Al3Mg
+ 674    +    101  2 Al30Mg23
+ 703    +    101  2 Al3Ca8
+ 704    +    101  2 Al14Ca13
+ 708    +    101  2 Ca3Si4
+ 709    +    101  2 Ca5Si3
+ 710    +    101  2 Ca14Si19
+ 711    +    101  2 CaAl2Si2
+ 728    +    101  2 Ti3Si
+ 729    +    101  2 Ti5Si3
+ 730    +    101  2 Ti5Si4
+ 738    +    101  2 Al7V
+ 739    +    101  2 Al10V
+ 740    +    101  2 Al23V4
+ 741    +    101  2 Al8V5
+ 744    +    101  2 Si5V6
+ 751    +    101  2 CrAl7
+ 752    +    101  2 Cr2Al11
+ 753    +    101  2 CrSi
+ 756    +    101  2 Cr8Ti25Al67
+ 764    +    101  2 MnAl4
+ 765    +    101  2 MnAl6
+ 766    +    101  2 MnAl12
+ 767    +    101  2 Mn4Al11
+ 768    +    101  2 Mn23Al99
+ 772    +    101  2 Mn6Si
+ 773    +    101  2 Mn9Si2
+ 774    +    101  2 Mn11Si19
+ 775    +    101  2 Mn3SiAl2
+ 778    +    101  2 MnTi
+ 779    +    101  2 Ti2Mn
+ 780    +    101  2 Mn2Ti
+ 781    +    101  2 Mn2Ti2
+ 782    +    101  2 Mn3Ti
+ 783    +    101  2 Mn9Ti2
+ 784    +    101  2 Cr3Mn5
+ 795    +    101  2 FeAl2
+ 796    +    101  2 Fe2Al5
+ 799    +    101  2 Fe2Si
+ 801    +    101  2 Fe5Si3
+ 802    +    101  2 FeSiAl2
+ 803    +    101  2 Fe2SiAl2
+ 812    +    101  2 FeTi3Al8
+ 819    +    101  2 NiMg2
+ 822    +    101  2 Ni5Al3
+ 824    +    101  2 NiSi2
+ 825    +    102  2 NiSi2
+ 827    +    101  2 Ni3Si
+ 828    +    102  2 Ni3Si
+ 829    +    103  2 Ni3Si
+ 830    +    101  2 Ni3Si2
+ 831    +    101  2 Ni5Si2
+ 838    +    101  2 CaNi2
+ 839    +    101  2 CaNi3
+ 840    +    101  2 CaNi5
+ 841    +    101  2 Ca2Ni7
+ 843    +    101  2 Ni2V
+ 844    +    101  2 Ni2V7
+ 845    +    101  2 Ni3V
+ 846    +    101  2 Ni2Cr
+ 847    +    101  2 Ni3Cr15Al82
+ 848    +    101  2 Ni9Cr11Al80
+ 849    +    101  2 MnNi
+ 850    +    101  2 Mn2Ni
+ 851    +    101  2 Mn3Ni
+ 852    +    101  2 MnNi2
+ 853    +    101  2 MnNi3
+ 854    +    101  2 Ni23Fe5Al72
+ 859    +    101  2 Mg2Cu
+ 860    +    102  2 Mg2Cu
+ 861    +    101  2 Al3Cu
+ 862    +    101  2 Al3Cu2
+ 863    +    101  2 Al2Cu3
+ 864    +    101  2 Al9Cu11
+ 865    +    101  2 Cu9Si2
+ 866    +    101  2 Cu15Si4
+ 867    +    101  2 Cu19Si6
+ 868    +    101  2 Cu33Si7
+ 872    +    101  2 CuTi2
+ 873    +    101  2 Cu2Ti
+ 874    +    101  2 Cu3Ti2
+ 875    +    101  2 Cu4Ti3
+ 876    +    101  3 Na2O
+ 877    +    102  3 Na2O
+ 878    +    103  3 Na2O
+ 879    +    101  3 MgO
+ 880    +    101  3 Al2O3
+ 881    +    102  3 Al2O3
+ 882    +    103  3 Al2O3
+ 883    +    104  3 Al2O3
+ 884    +    101  3 NaAlO2
+ 885    +    102  3 NaAlO2
+ 886    +    101  3 NaAl9O14
+ 887    +    101  3 Na2Al12O19
+ 888    +    101  3 SiO2
+ 889    +    102  3 SiO2
+ 890    +    103  3 SiO2
+ 891    +    104  3 SiO2
+ 892    +    105  3 SiO2
+ 893    +    106  3 SiO2
+ 894    +    107  3 SiO2
+ 895    +    108  3 SiO2
+ 896    +    101  3 Na2SiO3
+ 897    +    101  3 Na4SiO4
+ 898    +    101  3 Na10SiO7
+ 899    +    101  3 Na2Si2O5
+ 900    +    102  3 Na2Si2O5
+ 901    +    103  3 Na2Si2O5
+ 902    +    101  3 Na6Si2O7
+ 903    +    101  3 Na6Si8O19
+ 904    +    101  3 MgSiO3
+ 905    +    102  3 MgSiO3
+ 906    +    103  3 MgSiO3
+ 907    +    104  3 MgSiO3
+ 908    +    105  3 MgSiO3
+ 909    +    106  3 MgSiO3
+ 910    +    107  3 MgSiO3
+ 911    +    101  3 Mg2SiO4
+ 912    +    102  3 Mg2SiO4
+ 913    +    103  3 Mg2SiO4
+ 914    +    101  3 Na2MgSiO4
+ 915    +    101  3 Na2Mg2Si2O7
+ 916    +    101  3 Na4Mg2Si3O10
+ 917    +    101  3 Na2MgSi4O10
+ 918    +    101  3 Na4Mg3Si5O15
+ 919    +    101  3 Na2Mg2Si6O15
+ 920    +    101  3 Na2Mg5Si12O30
+ 921    +    101  3 Al2Si2O7
+ 922    +    101  3 NaAlSiO4
+ 923    +    102  3 NaAlSiO4
+ 924    +    101  3 NaAlSi2O6
+ 925    +    101  3 NaAlSi3O8
+ 926    +    102  3 NaAlSi3O8
+ 927    +    101  3 Mg4Al10Si2O23
+ 928    +    101  3 Mg3Al2Si3O12
+ 929    +    101  3 Mg2Al4Si5O18
+ 930    +    101  3 K2O
+ 931    +    101  3 K6MgO4
+ 932    +    101  3 KAlO2
+ 933    +    102  3 KAlO2
+ 934    +    101  3 KMg2Al15O25
+ 935    +    101  3 K2SiO3
+ 936    +    101  3 K2Si2O5
+ 937    +    102  3 K2Si2O5
+ 938    +    103  3 K2Si2O5
+ 939    +    101  3 K2Si4O9
+ 940    +    102  3 K2Si4O9
+ 941    +    101  3 K4SiO4
+ 942    +    101  3 K2MgSiO4
+ 943    +    102  3 K2MgSiO4
+ 944    +    101  3 K2MgSi3O8
+ 945    +    102  3 K2MgSi3O8
+ 946    +    101  3 K2MgSi5O12
+ 947    +    101  3 K2Mg5Si12O30
+ 948    +    101  3 K4Mg2Si5O14
+ 949    +    101  3 K10Mg5Si11O32
+ 950    +    101  3 KAlSiO4
+ 951    +    102  3 KAlSiO4
+ 952    +    101  3 KAlSi2O6
+ 953    +    101  3 KAlSi3O8
+ 954    +    101  3 CaO
+ 955    +    101  3 CaAl2O4
+ 956    +    101  3 CaAl4O7
+ 957    +    101  3 CaAl12O19
+ 958    +    101  3 Ca3Al2O6
+ 959    +    101  3 Na2Ca3Al16O28
+ 960    +    101  3 Na2Ca8Al6O18
+ 961    +    101  3 CaMg2Al16O27
+ 962    +    101  3 Ca2Mg2Al28O46
+ 963    +    101  3 Ca3MgAl4O10
+ 964    +    101  3 CaSiO3
+ 965    +    102  3 CaSiO3
+ 966    +    101  3 Ca2SiO4
+ 967    +    102  3 Ca2SiO4
+ 968    +    103  3 Ca2SiO4
+ 969    +    101  3 Ca3SiO5
+ 970    +    101  3 Ca3Si2O7
+ 971    +    101  3 Na2CaSiO4
+ 972    +    101  3 Na4CaSi3O9
+ 973    +    101  3 Na2CaSi5O12
+ 974    +    101  3 Na2Ca2Si2O7
+ 975    +    101  3 Na8Ca3Si5O17
+ 976    +    101  3 Na2Ca3Si6O16
+ 977    +    101  3 CaMgSi2O6
+ 978    +    101  3 Ca2MgSi2O7
+ 979    +    101  3 Ca3MgSi2O8
+ 980    +    101  3 CaAl2SiO6
+ 981    +    101  3 CaAl2Si2O8
+ 982    +    102  3 CaAl2Si2O8
+ 983    +    101  3 Ca2Al2SiO7
+ 984    +    101  3 Ca3Al2Si3O12
+ 985    +    101  3 K4Ca3Al10O20
+ 986    +    101  3 K2CaSiO4
+ 987    +    101  3 K4CaSi3O9
+ 988    +    101  3 K4CaSi6O15
+ 989    +    101  3 K8CaSi10O25
+ 990    +    101  3 K2Ca2Si2O7
+ 991    +    101  3 K2Ca2Si9O21
+ 992    +    101  3 K2Ca3Si6O16
+ 993    +    101  3 K2Ca6Si4O15
+ 994    +    101  3 TiO2
+ 995    +    102  3 TiO2
+ 996    +    101  3 Ti2O3
+ 997    +    102  3 Ti2O3
+ 998    +    101  3 Ti3O5
+ 999    +    101  3 Ti4O7
+1000    +    101  3 Ti5O9
+1001    +    101  3 Ti6O11
+1002    +    101  3 Ti7O13
+1003    +    101  3 Ti8O15
+1004    +    101  3 Ti9O17
+1005    +    101  3 Ti10O19
+1006    +    101  3 Ti20O39
+1007    +    101  3 Na2TiO3
+1008    +    102  3 Na2TiO3
+1009    +    101  3 Na4TiO4
+1010    +    101  3 Na2Ti2O5
+1011    +    101  3 Na2Ti3O7
+1012    +    101  3 Na8Ti5O14
+1013    +    101  3 Na2Ti6O13
+1014    +    101  3 Ti2Al6O13
+1015    +    101  3 Na2TiSiO5
+1016    +    101  3 Na2TiSi2O7
+1017    +    101  3 Na2TiSi4O11
+1018    +    101  3 Na2Ti2Si2O9
+1019    +    101  3 K2TiO3
+1020    +    101  3 K4TiO4
+1021    +    101  3 K2Ti2O5
+1022    +    101  3 K2Ti3O7
+1023    +    101  3 K8Ti5O14
+1024    +    101  3 K2Ti6O13
+1025    +    101  3 K2TiSiO5
+1026    +    101  3 K2TiSi2O7
+1027    +    101  3 K2TiSi4O11
+1028    +    101  3 K2Ti2Si2O9
+1029    +    101  3 CaTiO3
+1030    +    102  3 CaTiO3
+1031    +    103  3 CaTiO3
+1032    +    101  3 Ca2Ti2O5
+1033    +    102  3 Ca2Ti2O5
+1034    +    101  3 Ca3Ti2O6
+1035    +    101  3 Ca3Ti2O7
+1036    +    101  3 Ca4Ti3O10
+1037    +    101  3 Ca3Ti8Al12O37
+1038    +    101  3 CaSiTiO5
+1039    +    102  3 CaSiTiO5
+1040    +    101  3 Ca3Ti2Si3O12
+1041    +    101  3 VO
+1042    +    101  3 VO2
+1043    +    102  3 VO2
+1044    +    101  3 V2O3
+1045    +    101  3 V2O5
+1046    +    101  3 V3O5
+1047    +    101  3 V3O7
+1048    +    101  3 V4O5
+1049    +    101  3 V4O7
+1050    +    101  3 V5O9
+1051    +    101  3 V6O11
+1052    +    101  3 V6O13
+1053    +    101  3 V7O13
+1054    +    101  3 V8O15
+1055    +    101  3 NaVO3
+1056    +    101  3 Na3VO4
+1057    +    102  3 Na3VO4
+1058    +    101  3 Na4V2O7
+1059    +    102  3 Na4V2O7
+1060    +    101  3 NaV3O8
+1061    +    101  3 Na2V12O31
+1062    +    101  3 MgV2O6
+1063    +    101  3 Mg2V2O7
+1064    +    101  3 Mg3V2O8
+1065    +    101  3 CaVO2
+1066    +    101  3 CaVO3
+1067    +    101  3 CaV2O4
+1068    +    101  3 CaV2O6
+1069    +    101  3 Ca2V2O7
+1070    +    101  3 Ca3V2O6
+1071    +    101  3 Ca3V2O8
+1072    +    101  3 Ca4V2O9
+1073    +    101  3 Ca7V4O17
+1074    +    101  3 Cr2O3
+1075    +    101  3 CaCr2O4
+1076    +    102  3 CaCr2O4
+1077    +    101  3 (Ca2Cr3)Cr10O20
+1078    +    101  3 (CaCr)Si4O10
+1079    +    101  3 Ca3Cr2Si3O12
+1080    +    101  3 MnO
+1081    +    101  3 MnO2
+1082    +    101  3 Mn2O3
+1083    +    102  3 Mn2O3
+1084    +    101  3 Mg6MnO8
+1085    +    101  3 MnSiO3
+1086    +    101  3 Mn2SiO4
+1087    +    101  3 Mn2Al4Si5O18
+1088    +    101  3 Mn3Al2Si3O12
+1089    +    101  3 CaMnO3
+1090    +    101  3 Ca2MnO4
+1091    +    101  3 CaMn2O4
+1092    +    101  3 Ca3Mn2O7
+1093    +    101  3 CaMn3O6
+1094    +    101  3 Ca2Mn3O8
+1095    +    101  3 Ca4Mn3O10
+1096    +    101  3 CaMn4O8
+1097    +    101  3 CaMn7O12
+1098    +    101  3 Fe2O3
+1099    +    102  3 Fe2O3
+1100    +    103  3 Fe2O3
+1101    +    101  3 NaFeO2
+1102    +    102  3 NaFeO2
+1103    +    101  3 Na2FeO2
+1104    +    101  3 Na3FeO3
+1105    +    101  3 Na4FeO3
+1106    +    101  3 Na5FeO4
+1107    +    101  3 NaFe2O3
+1108    +    101  3 Na8Fe2O7
+1109    +    101  3 Na3Fe5O9
+1110    +    101  3 Na4Fe6O11
+1111    +    101  3 Al2Fe2O6
+1112    +    101  3 FeSiO3
+1113    +    102  3 FeSiO3
+1114    +    103  3 FeSiO3
+1115    +    101  3 Fe2SiO4
+1116    +    102  3 Fe2SiO4
+1117    +    103  3 Fe2SiO4
+1118    +    101  3 Na2FeSiO4
+1119    +    101  3 NaFeSi2O6
+1120    +    101  3 Na5FeSi4O12
+1121    +    101  3 Na8Fe6Si15O40
+1122    +    101  3 Fe2Al4Si5O18
+1123    +    101  3 Fe3Al2Si3O12
+1124    +    101  3 CaFe2O4
+1125    +    101  3 Ca2Fe2O5
+1126    +    101  3 CaFe4O7
+1127    +    101  3 CaFeSi2O6
+1128    +    101  3 Ca2FeSi2O7
+1129    +    101  3 Ca3Fe2Si3O12
+1130    +    101  3 FeVO4
+1131    +    101  3 FeV2O4
+1132    +    101  3 FeV2O6
+1133    +    101  3 FeV6O15
+1134    +    101  3 Fe2V4O13
+1135    +    101  3 NiO
+1136    +    101  3 Ni2SiO4
+1137    +    101  3 NiCaSi2O6
+1138    +    101  3 CuO
+1139    +    101  3 Cu2O
+1140    +    101  3 CuAlO2
+1141    +    101  3 Cu2Al2O4
+1142    +    101  3 CuFeO2
+1143    +    101  3 CuFe2O4
+   0    I      0  1 SOLN-LIQU  // 2 FSstel Liqu     LIQUID
+   0    J      0  1 SOLN-FCC   // 3 FSstel FCC      FCC_A1
+   0    I      0  1 SOLN-BCC   // 2 FSstel BCC      BCC_A2
+   0    I      0  2 SOLN-SLAGA // 2 FToxid SLAGA    A-Slag-liq all oxides + S
+   0    I      0  2 SOLN-SPINA // 2 FToxid SPINA    A-Spinel
+   0    I      0  2 SOLN-MEO_A // 2 FToxid MeO_A    A-Monoxide
+   0    I      0  2 SOLN-CPYRA // 2 FToxid cPyrA    A-Clinopyroxene
+   0    +      0  2 SOLN-OPYRA // 1 FToxid oPyrA    A-Orthopyroxene
+   0    +      0  2 SOLN-PPYRA // 1 FToxid pPyrA    A-Protopyroxene
+   0    +      0  2 SOLN-LCPY  // 1 FToxid LcPy     LowClinopyroxene
+   0    +      0  2 SOLN-WOLLA // 1 FToxid WOLLA    A-Wollastonite,
+   0    +      0  2 SOLN-BRED  // 1 FToxid Bred     Bredigite
+   0    +      0  2 SOLN-BC2SA // 1 FToxid bC2SA    A-a'(Ca,Sr,Ba)2SiO4
+   0    +      0  2 SOLN-AC2SB // 1 FToxid aC2SB    B-a-(Ca,Sr)2SiO4
+   0    +      0  2 SOLN-MEL_A // 1 FToxid Mel_A    A-Melilite
+   0    I      0  2 SOLN-OLIVA // 2 FToxid OlivA    A-Olivine
+   0    +      0  2 SOLN-CORD  // 1 FToxid Cord     Cordierite
+   0    I      0  2 SOLN-MULL  // 2 FToxid Mull     Mullite
+   0    +      0  2 SOLN-CAFS  // 1 FToxid CAFS     Ca2(Al,Fe)8SiO16
+   0    +      0  2 SOLN-CAF6  // 1 FToxid CAF6     Ca(Al,Fe)12O19
+   0    +      0  2 SOLN-CAF3  // 1 FToxid CAF3     Ca(Al,Fe)6O10
+   0    +      0  2 SOLN-CAF2  // 1 FToxid CAF2     Ca(Al,Fe)4O7
+   0    I      0  2 SOLN-CAF1  // 2 FToxid CAF1     Ca(Al,Fe)2O4
+   0    +      0  2 SOLN-C2AF  // 1 FToxid C2AF     Ca2(Al,Fe)2O5
+   0    +      0  2 SOLN-C3AF  // 1 FToxid C3AF     Ca3(Al,Fe)2O6
+   0    I      0  2 SOLN-CORU  // 2 FToxid CORU     M2O3(Corundum)
+   0    +      0  2 SOLN-GARN  // 1 FToxid GARN     Garnets
+   0    +      0  2 SOLN-CASP  // 1 FToxid CaSp     CaSpinel
+   0    +      0  2 SOLN-SP-V  // 1 FToxid SP-V     V_Spinel
+   0    +      0  2 SOLN-CARN  // 1 FToxid Carn     Carnegieite
+   0    +      0  2 SOLN-NEPH  // 1 FToxid Neph     Nepheline
+   0    +      0  2 SOLN-KCS1  // 1 FToxid KCS1     K2CaSiO4
+   0    +      0  2 SOLN-NASHA // 1 FToxid NAShA    A-(Na,Li)(Al,Fe)O2-HT
+   0    +      0  2 SOLN-NASLA // 1 FToxid NASlA    A-(Na,Li)(Al,Fe)O2-LT
+   0    +      0  2 SOLN-NCSO  // 1 FToxid NCSO     Combeite
+   0    +      0  2 SOLN-NCA2  // 1 FToxid NCA2     Na2CaAl4O8
+   0    +      0  2 SOLN-C3A1  // 1 FToxid C3A1     (Ca,Na2)Ca8Al6O18
+   0    I      0  2 SOLN-FELD  // 2 FToxid Feld     Feldspar
+   0    +      0  2 SOLN-TIO2A // 1 FToxid TiO2A    A-Rutile
+   0    I      0  2 SOLN-PSBR  // 2 FToxid PSBR     Pseudobrookite
+   0    I      0  2 SOLN-TISP  // 2 FToxid TiSP     Ti-Spinel
+   0    +      0  2 SOLN-CATI  // 1 FToxid CaTi     Ca3Ti2O7-Ca3Ti2O6
+   0    +      0  2 SOLN-PERO  // 1 FToxid PERO     Perovskite
+   0    +      0  2 SOLN-TSPIA // 1 FToxid TSpiA    A-Tetragonal-Spinel
+   0    +      0  2 SOLN-BIXB  // 1 FToxid Bixb     Mn2O3(Bixbyite)
+   0    +      0  2 SOLN-BRAU  // 1 FToxid Brau     Braunite_Mn7SiO12
+   0    +      0  2 SOLN-RHOD  // 1 FToxid Rhod     Rhodonite
+   0    +      0  2 SOLN-P-MN  // 1 FToxid P-Mn     Pyroxmangite
+   0    +      0  2 SOLN-VO__  // 1 FToxid VO__     VO
+   0    +      0  2 SOLN-VFEO  // 1 FToxid VFeO     (V,Fe)O2
+   0    +      0  2 SOLN-LEU1  // 1 FToxid LEU1     Leucite
+   0    +      0  2 SOLN-KASH  // 1 FToxid KASH     KAlSiO4-HT
+   0    +      0  2 SOLN-KA_H  // 1 FToxid KA_H     KAlO2-HT
+   0    +      0  2 SOLN-KA_L  // 1 FToxid KA_L     KAlO2-LT
+   0    +      0  2 SOLN-ROED  // 1 FToxid Roed     Roedderite
+   0    +      0  2 SOLN-NAF6  // 1 FToxid NAF6     beta''-Al2O3
+   0    +      0  2 SOLN-BBAL  // 1 FToxid bbAl     K2Al12O19
+   0    +      0  2 SOLN-B_AL  // 1 FToxid b_Al     KAl9O14
+   0    +      0  2 SOLN-NS2L  // 1 FToxid NS2l     (Na,K)2Si2O5_low-T
+   0    +      0  2 SOLN-NS2I  // 1 FToxid NS2i     (Na,K)2Si2O5_mid-T
+   0    +      0  2 SOLN-NS2H  // 1 FToxid NS2h     (Na,K)2Si2O5_high-T
+   0    I      0  2 SOLN-NESO  // 2 FToxid NeSO     (K,Na,Li)2SiO3
+   0    I      0  3 SOLN-MAT2A // 2 FTsulf MAT2A    A-Liq(Matte/Metal)
+   0    +      0  3 SOLN-PYRRA // 1 FTsulf PYRRA    A-Pyrrhotite
+   0    I      0  3 SOLN-MES2  // 2 FTsulf MeS2     MeS2
+   0    +      0  3 SOLN-PENT  // 1 FTsulf Pent     Pentlandite
+SSEND
+ENDF    0
+//  15 Al2O3  +  33 CaO  +  15 MgO  +  37 SiO2  +  \\ 

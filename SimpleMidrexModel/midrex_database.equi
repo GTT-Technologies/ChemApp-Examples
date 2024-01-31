@@ -1,0 +1,201 @@
+FILE-00001    15:38    28Dec23  GTT - Technologies    FactSage 8.3
+comments
+'O' '13'
+'TC' 'ATM' 'J' 'NOVPT' 'NOPHYS' 'CUT' '1e-70 1e-70' 'WIN' 'NOTH' 'X' 'NOAQUA' 'NOEPH' 
+'O' '10'
+'CXHY' '2' 'NOGIONTK' '2000' 'NODEMO' 'NOVIR' 'DILEX' '1e+6' 'NOG25' 'MINS2'
+'O' '7'
+'LIM' '100' '10000' '1.000E-35' '1.000E+08' '1.000E-08' '1.000E+35' 
+'O' '6'
+'NOTRNS' 'TRNUM' '0'  'NOPARA' '' ' 5   1  2  3  4  5' 
+'O' '3'
+'ISOP' '0' ''
+'R' 'NEW'
+ Fe  +  C  +  O  +  N  + 
+'I' '   '
+ (580,1,s1-FactPS,#1) (580,1,s1-FactPS,#1) (580,1,g-FactPS,#1) (580,1,g-FactPS,#1)
+'R' 'NEW'
+ H  =
+'I' '   '
+ (580,1,g-FactPS,#1)
+'F' 'WIN'
+ 'T' '980' 'P' '1' 'DH' ''
+'DAT1' ' 2'
+FT53 ST53 
+'DAT2' ' 1'
+ST53 
+'DAT3' '0'
+ 
+'GRID' 
+GRIDXLS  C:\Users\Omer Buyukuslu\projects\CAPy_course\Midrex_model\Reformer.xls
+GRIDLHS   2 2 1 6 1
+GRIDRHS   1 2 1  1
+GRIDPROP SOURCE  0 IOPT  3
+GRIDEND
+'SS' '189'
+   1    +    901  1 H
+   2    +    901  1 H2
+   3    +    901  1 C
+   4    +    901  1 C2
+   5    +    901  1 C3
+   6    +    901  1 C4
+   7    +    901  1 C5
+   8    +    901  1 CH
+   9    +    901  1 CH2
+  10    +    901  1 CH3
+  11    +    901  1 CH4
+  12    +    901  1 C2H
+  13    +    901  1 C2H2
+  14    +    901  1 C2H3
+  15    +    901  1 C2H4
+  16    +    901  1 C2H5
+  17    +    901  1 C2H6
+  18    +    901  1 N
+  19    +    901  1 N2
+  20    +    901  1 N3
+  21    +    901  1 NH
+  22    +    901  1 NH2
+  23    +    901  1 NH3
+  24    +    901  1 HNNH
+  25    +    901  1 N2H4
+  26    +    901  1 CN
+  27    +    901  1 C2N
+  28    +    901  1 CNN
+  29    +    902  1 CNN
+  30    +    901  1 (CN)2
+  31    +    901  1 C4N2
+  32    +    901  1 HCN
+  33    +    901  1 CH3NH2
+  34    +    901  1 HCCN
+  35    +    901  1 CH3NC
+  36    +    901  1 C2H5N
+  37    +    901  1 (CH3)2NH
+  38    +    901  1 CH3N2H3
+  39    +    901  1 O
+  40    +    901  1 O2
+  41    +    901  1 O3
+  42    +    901  1 OH
+  43    +    901  1 H2O
+  44    +    901  1 HOO
+  45    +    901  1 HOOH
+  46    +    901  1 CO
+  47    +    901  1 C2O
+  48    +    901  1 CO2
+  49    +    901  1 C3O2
+  50    +    901  1 HCO
+  51    +    901  1 H2CO
+  52    +    901  1 CH3O
+  53    +    902  1 CH3O
+  54    +    901  1 CH3OH
+  55    +    901  1 CH2CO
+  56    +    901  1 C2H4O
+  57    +    902  1 C2H4O
+  58    +    901  1 CH3CH2OH
+  59    +    902  1 CH3CH2OH
+  60    +    901  1 COOH
+  61    +    901  1 HCOOH
+  62    +    901  1 CH3COOH
+  63    +    901  1 NO
+  64    +    901  1 N2O
+  65    +    901  1 NO2
+  66    +    901  1 NO3
+  67    +    901  1 N2O3
+  68    +    901  1 N2O4
+  69    +    901  1 N2O5
+  70    +    901  1 HNO
+  71    +    901  1 N2H5OH
+  72    +    901  1 HONO
+  73    +    902  1 HONO
+  74    +    901  1 HONO2
+  75    +    901  1 NCO
+  76    +    901  1 HNCO
+  77    +    901  1 CH3NO2
+  78    +    901  1 CH3CH2ONO2
+  79    +    901  1 Fe
+  80    +    901  1 FeO
+  81    +    901  1 Fe(OH)2
+  82    +    901  1 Fe(CO)5
+  87    +    801  1 N2H4
+  88    +    801  1 HCN
+  89    +    801  1 CH3NH2
+  90    +    801  1 CH3NC
+  91    +    801  1 (CH3)2NH
+  92    +    801  1 CH3N2H3
+  93    +    801  1 (CH3)2N2H2
+  94    +    802  1 (CH3)2N2H2
+  95    +    801  1 HOOH
+  96    +    801  1 CH3OH
+  97    +    801  1 C2H4O
+  98    +    802  1 C2H4O
+  99    +    801  1 CH3CH2OH
+ 100    +    801  1 HCOOH
+ 101    +    801  1 CH3COOH
+ 102    +    801  1 (CH2OH)2
+ 103    +    801  1 N2O4
+ 104    +    801  1 NH4OH
+ 105    +    801  1 (NH4)2O
+ 106    +    801  1 HONO2
+ 107    +    801  1 NH4NO3
+ 108    +    801  1 CH3NO2
+ 109    +    801  1 CH3NO3
+ 110    +    801  1 CH3CH2ONO2
+ 114    +    801  1 Fe(CO)5
+ 115    +    801  2 H
+ 116    +    801  2 C
+ 117    +    801  2 N
+ 118    +    801  2 Fe
+ 119    +    801  2 FeO
+ 120    +    801  2 Fe3O4
+ 121    +    801  1 H2O
+ 124    +    101  1 CNH(NH2)(NHCN)
+ 125    +    101  1 H2O
+ 126    +    101  1 N2O4
+ 127    +    101  1 NH4OH
+ 128    +    101  1 NH4NO3
+ 129    +    102  1 NH4NO3
+ 130    +    103  1 NH4NO3
+ 131    +    104  1 NH4NO3
+ 132    +    105  1 NH4NO3
+ 133    +    101  1 CO(NH2)2
+ 134    +    101  1 NH2CH2COOH
+ 135    +    101  1 NH4HCO3
+ 140    +    101  1 Fe3C2
+ 141    +    101  1 Fe5C2
+ 142    +    102  1 Fe5C2
+ 143    +    101  1 Fe7C3
+ 145    +    101  1 Fe3N
+ 156    +    101  1 Fe(OH)2
+ 157    +    101  1 Fe(OH)3
+ 158    +    101  1 Fe2O3(H2O)
+ 159    +    101  1 FeCO3
+ 160    +    101  2 H
+ 161    +    101  2 C
+ 162    +    102  2 C
+ 163    +    101  2 N
+ 164    +    102  2 N
+ 165    +    103  2 N
+ 166    +    104  2 N
+ 167    +    105  2 N
+ 168    +    106  2 N
+ 169    +    107  2 N
+ 170    +    101  2 Fe
+ 171    +    102  2 Fe
+ 172    +    101  2 Fe3C
+ 173    +    102  2 Fe3C
+ 174    +    101  2 FeO
+ 175    +    101  2 Fe2O3
+ 176    +    102  2 Fe2O3
+ 177    +    103  2 Fe2O3
+ 178    +    101  2 Fe3O4
+ 179    +    102  2 Fe3O4
+ 180    +    103  2 Fe3O4
+ 181    +    104  2 Fe3O4
+   0    I      0  1 SOLN-LIQU  // 2 FSstel Liqu     LIQUID
+   0    J      0  1 SOLN-FCC   // 3 FSstel FCC      FCC_A1
+   0    I      0  1 SOLN-BCC   // 2 FSstel BCC      BCC_A2
+   0    I      0  1 SOLN-HCP   // 2 FSstel HCP      HCP_A3
+   0    +      0  1 SOLN-CEME  // 1 FSstel CEME     CEMENTITE
+   0    I      0  1 SOLN-ME4N  // 2 FSstel Me4N     Me4N
+   0    +      0  1 SOLN-M5C2  // 1 FSstel M5C2     M5C2
+SSEND
+ENDF-00001
